@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 20px;
 }
 .half-width{
     width: 50%;
@@ -30,4 +31,16 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.download-cv{
+    text-decoration: none;
+    background-image: linear-gradient(skyblue, rgb(51, 51, 216));
+    padding: 10px 35px;
+    color: whitesmoke;
+}
+.side-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100px;
 }
